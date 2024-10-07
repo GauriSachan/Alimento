@@ -9,9 +9,7 @@
 
 body {
     width: 100%;
-    overflow-x: hidden;
-    background-color: var(--background-color);
-    color: var(--text-color);
+    overflow-x: hidden
 }
 
 html {
@@ -52,16 +50,13 @@ a {
 
 .heading-primary {
     font-size: 2.8rem;
-    color: var(--text-color);
+    color: #000;
     font-weight: 700;
     text-transform: uppercase
 }
 
 .heading-primary--white {
     color: #fff
-}
-p{
-    color: var(--text-color);
 }
 
 @media (max-width: 56.25em) {
@@ -79,7 +74,7 @@ p{
 .heading-secondary {
     font-size: 1.8rem;
     font-weight: 800;
-   color: var(--text-color);
+    color: #000
 }
 
 .heading-secondary--bold {
@@ -104,7 +99,7 @@ p{
 
 .heading-tertiary {
     font-size: 2rem;
-    color: var(--text-color);
+    color: #000;
     font-weight: 600;
     position: relative;
     top: 1rem
@@ -121,8 +116,8 @@ p{
 .paragraph {
     font-size: 1.4rem;
     font-weight: 500;
-   }
-
+    color: #000
+}
 
 .paragraph--small {
     font-size: 1.2rem
@@ -151,7 +146,7 @@ p{
 
 .paragraph__li::before {
     content: " \00BB";
-    color: var(--text-color);
+    color: #000;
     vertical-align: middle;
     right: .5rem;
     top: -.2rem
@@ -159,7 +154,7 @@ p{
 
 .nav__link-item {
     font-weight: 500;
-    color: var(--text-color);
+    color: #000;
     font-size: 1.6rem;
     vertical-align: middle;
     top: -.4rem;
@@ -169,7 +164,7 @@ p{
 .sidebar__link-item {
     position: relative;
     font-size: 2rem;
-    color: var(--text-color);
+    color: #000;
     top: -.6rem;
     font-weight: 500
 }
@@ -692,7 +687,7 @@ p{
     width: 100%;
     display: block;
     position: fixed;
-    background-color: var(--background-color);
+    background-color: #fff;
     z-index: 100;
     padding: 0 1rem;
     -webkit-box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.15);
@@ -708,10 +703,7 @@ p{
 .nav__wrapper {
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    color: var(--text-color);
+    align-items: center
 }
 
 .nav__logo-img {
@@ -743,7 +735,7 @@ p{
 }
 
 .mob-nav {
-    background-color: var(--background-color);
+    background-color: #fff;
     width: 100%;
     position: fixed;
     display: none;
@@ -804,7 +796,7 @@ p{
 }
 
 .sidebar__left {
-    background-color: var(--background-color);
+    background-color: rgba(0, 0, 0, 0.3);
     width: 60%;
     height: inherit;
     float: left;
@@ -815,7 +807,7 @@ p{
 .sidebar__right {
     display: none;
     position: relative;
-    background-color: var(--background-color);
+    background-color: #fff;
     width: 40%;
     height: inherit;
     -webkit-box-shadow: -10px -10px 10px rgba(0, 0, 0, 0.16);
@@ -1438,7 +1430,7 @@ p{
     margin: 1rem 0;
     border-color: rgba(0, 0, 0, 0.1);
     border-width: .5px;
-    background-color: var(--background-color);
+    background-color: rgba(0, 0, 0, 0.1)
 }
 
 .order__cart-footer {
@@ -1490,13 +1482,13 @@ p{
     height: 100vh;
     position: fixed;
     z-index: 11000;
-    background-color: var(--background-color);
+    background-color: rgba(0, 0, 0, 0.3)
 }
 
 .modal__container {
     width: 60%;
     padding: 3rem;
-    background-color: var(--background-color);
+    background-color: #fff
 }
 
 .modal__container {
@@ -1596,7 +1588,7 @@ p{
 }
 
 .menus-detail-button {
-    background-color: var(--background-color);
+    background-color: #fff;
     border-radius: .8rem;
     border: none;
     padding: 1rem 2rem;
@@ -1618,7 +1610,7 @@ p{
     border-radius: 45px;
     border: 1.3px solid #fff;
     padding: 1rem 4rem;
-    background-color: var(--background-color);
+    background-color: rgba(255, 255, 255, 0.1);
     cursor: pointer
 }
 
@@ -1657,7 +1649,7 @@ p{
     border: 2px solid #E94F37;
     padding: 3px 1.4rem;
     color: #E94F37;
-    background-color: var(--background-color);
+    background-color: #fff;
     font-weight: 600;
     font-size: 1.4rem;
     cursor: pointer;
@@ -1737,7 +1729,7 @@ p{
     padding: 0px 1.5rem;
     -webkit-box-shadow: 1px 1px 1rem rgba(0, 0, 0, 0.13);
     box-shadow: 1px 1px 1rem rgba(0, 0, 0, 0.13);
-    background-color: var(--background-color);
+    background-color: #fff
 }
 
 .dropdown__option {
@@ -2076,8 +2068,8 @@ p{
     z-index: 2;
     content: "";
     height: 90%;
-        background-color: var(--background-color);
-   ;
+    width: 100%;
+    background-color: #fff;
     border-radius: 8px;
     left: 0;
     z-index: -1;
@@ -2226,7 +2218,7 @@ p{
 
 .contact__right {
     padding: 2.5rem;
-    background-color: var(--background-color);
+    background-color: #fff
 }
 
 .contact__ul {
@@ -2346,8 +2338,8 @@ p{
     border-radius: 5px;
     position: relative;
     top: 4px;
-        background-color: var(--background-color);
-   ;
+    height: 15px;
+    background-color: #fff;
     -webkit-transform: rotate(20deg);
     -ms-transform: rotate(20deg);
     transform: rotate(20deg)
@@ -2804,109 +2796,3 @@ p{
         margin-bottom: 2rem
     }
 }
-
-
-
-
-/* Dark mode */
-
-/* Default light mode colors */
-:root {
-    --background-color: rgb(240, 234, 234);
-    --text-color: black;
-    --header-bg: lightgray;
-    
-  }
-  
-  h2{
-    color: var(--text-color);
-  }
-  /* Dark mode colors */
-  [data-theme="dark"] {
-    --background-color: #222831;
-    --text-color: #f0f5f5;
-    --header-bg: #1c1c1c;
-    
-  }
-/*   
-background-image: -o-linear-gradient(left, #E94F37 30%, #E28413 70%);
-  body {
-    background-color: var(--background-color);
-    color: var(--text-color);
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    transition: background-color 0.3s, color 0.3s;
-  } */
-  
-  /* header {
-    background-color: var(--header-bg);
-    padding: 1rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  } */
-  
-  h1 {
-    margin: 0;
-  }
-  
-  .theme-switch-wrapper {
-    display: flex;
-    align-items: center;
-  }
-  
-  #mode-label {
-    margin-left: 10px;
-    font-size: 1rem;
-  }
-  
-  /* Toggle Switch */
-  .theme-switch {
-    position: relative;
-    display: inline-block;
-    width: 50px;
-    height: 24px;
-  }
-  
-  .theme-switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
-  }
-  
-  .slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: var(--background-color);
-    transition: 0.4s;
-    border-radius: 24px;
-  }
-  
-  .slider:before {
-    position: absolute;
-    content: "";
-    height: 18px;
-    width: 18px;
-    border-radius: 50%;
-    background-color: white;
-    transition: 0.4s;
-    top: 3px;
-    left: 4px;
-  }
-  
-  input:checked + .slider {
-    background-color: #66bb6a;
-  }
-  
-  input:checked + .slider:before {
-    transform: translateX(26px);
-  }
-
-
-  
-
